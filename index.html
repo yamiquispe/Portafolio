@@ -21,6 +21,89 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
+  <style>
+    #skillbar { 
+      list-style: none;
+      width: auto;
+      margin: 5px auto 0;
+      position: relative;
+      padding: 5px 0;
+    }
+    
+    #skillbar li { 
+      margin-bottom:30px; 
+      background: rgb(255, 255, 255);  
+      height:40px; 
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      -moz-border-radius-top-right: 20px;
+      -webkit-border-radius-top-right: 20px;
+      -moz-border-radius-bottom-right: 20px;
+      -webkit-border-radius-bottom-right: 20px;   
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      -moz-border-radius-top-left: 20px;
+      -webkit-border-radius-top-left: 20px;
+      -moz-border-radius-bottom-left: 20px;
+      -webkit-border-radius-bottom-left: 20px;
+    }
+    
+    #skillbar h4 {
+        color: rgb(255, 255, 255);
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .skillbar { 
+      height:36px; 
+      margin:2px 2px;  
+      position:absolute;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      -moz-border-radius-top-right: 20px;
+      -webkit-border-radius-top-right: 20px;
+      -moz-border-radius-bottom-right: 20px;
+      -webkit-border-radius-bottom-right: 20px;	
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      -moz-border-radius-top-left: 20px;
+      -webkit-border-radius-top-left: 20px;
+      -moz-border-radius-bottom-left: 20px;
+      -webkit-border-radius-bottom-left: 20px;
+    }
+
+    .html {
+      width:95%; 
+      left: 0;
+      background-color: #4a6633;
+    }
+    
+    .css {
+      width:90%;
+      left: 0;
+      background-color: #4a6633;
+    }    
+
+    .java {
+      width:80%;
+      left: 0;
+      background-color: #4a6633;
+    }
+
+    .php {
+      width:65%;
+      left: 0;
+      background-color: #4a6633;	
+    }
+    
+    .psd {
+      width:85%;
+      left: 0;
+      background-color: #4a6633;	
+    }
+    
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -145,15 +228,18 @@
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
+          <ul id="skillbar">
+            <h4>HTML</h4>
+                <li><span class="skillbar html"></span></li>
+                <h4>CSS</h4>
+                <li><span class="skillbar css"></span></li>
+                <h4>JAVASCRIPT</h4>
+                <li><span class="skillbar java"></span></li>
+                <h4>PHP</h4>
+                <li><span class="skillbar php"></span></li>
+                <h4>PHOTOSHOP/ILLUSTRATOR</h4>
+                <li><span class="skillbar psd"></span></li>
+          </ul>
 
         </div>
       </div>
