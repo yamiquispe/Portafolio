@@ -9811,7 +9811,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.text-lead {
+  color: rgb(255, 255, 255) !important;
 }
 
 .text-primary {
@@ -9891,7 +9895,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.text-lead-50 {
+  color: rgb(255, 255, 255, 0.5) !important;
 }
 
 .text-hide {
