@@ -1,3 +1,6 @@
+
+// Sección Start:
+
 var message = "Yamira Paulina";
 var msgCount = 0;
 var blinkCount = 0;
@@ -7,24 +10,24 @@ var messageLabel = document.getElementById("messageLabel");
 
 function textFunc() {
    messageLabel.innerHTML = message.substring(0, msgCount);
-   
+
    if (msgCount == message.length) {
       // Stop Timer
       clearInterval(timer1);
-      
+
       // Start blinking animation!
       timer2 = setInterval("blinkFunc()", 200);
-      
+
    } else {
       msgCount++;
    }
 }
 
 function blinkFunc() {
-   
+
    // Blink 5 times
    if (blinkCount < 6) {
-      if(blinkFlg == 0) {
+      if (blinkFlg == 0) {
          messageLabel.innerHTML = message;
          blinkFlg = 1;
          blinkCount++;
