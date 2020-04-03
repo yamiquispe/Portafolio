@@ -192,7 +192,7 @@ aside.cara6 { /* arriba */
     bottom: 10px;
 }
  */
-#buttonDemo, #buttonRepo {
+.buttonDemo, .buttonRepo {
     background-color: rgb(134, 233, 67);
     color: white;
     margin: 10px;
@@ -214,4 +214,9 @@ aside.cara6 { /* arriba */
     width: 100%;
     height: 460px;
     background: rgba(54, 85, 74, 0.822);
+}
+
+.img-fluid2 {
+    width: 100%;
+    height: auto;
 }
