@@ -108,7 +108,7 @@
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(182, 182, 182, 0.863), rgba(255, 255, 255, 0.863));
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .masthead h2 {
@@ -149,8 +149,8 @@
 }
 
 .about-section {
-  padding-top: 3rem;
-  background: linear-gradient(to bottom, #000000 0%, rgb(22, 22, 22) 75%, rgba(19, 19, 19, 0.99) 100%);
+  padding-top: 5rem;
+  background: linear-gradient(to bottom, #68718C 0%, rgb(191, 142, 160) 75%, rgb(191, 142, 160) 100%);
 }
 
 .about-section p {
