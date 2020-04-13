@@ -55,9 +55,11 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgb(255, 255, 255);
+    font-size: 15px;
   }
   #mainNav .nav-link:hover {
-    color: rgb(65, 246, 162);
+    color: rgb(0, 0, 0);
+    /* font-size: 15px; */
   }
   #mainNav .nav-link:active {
     color: white;
@@ -92,7 +94,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0, 3.5) 75%, #000000 100%);
+  background: url("../img/inicio.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -104,7 +106,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(40, 189, 3, 0.863), rgba(45, 206, 5, 0.863));
+  background: -webkit-linear-gradient(rgba(182, 182, 182, 0.863), rgba(255, 255, 255, 0.863));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

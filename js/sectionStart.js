@@ -17,7 +17,6 @@ function textFunc() {
 
       // Start blinking animation!
       timer2 = setInterval("blinkFunc()", 200);
-
    } else {
       msgCount++;
    }
