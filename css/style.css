@@ -121,7 +121,7 @@ aside.cara6 { /* arriba */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 6px dashed rgba(255, 255, 255, 0.5);
+  border: 6px solid rgba(255, 255, 255, 0.5);
   animation: mymove 5s infinite;
   margin: auto;
 }
