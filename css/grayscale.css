@@ -8,7 +8,6 @@
 #mainNav {
   min-height: 56px;
   background-color: #fff;
-  background: rgb(189, 189, 189);
 }
 
 #mainNav .navbar-toggler {
@@ -190,7 +189,7 @@
 
 .skills-section {
   padding: 5rem 0;
-  background: linear-gradient(to bottom, rgba(19, 19, 19, 0.99) 0%, rgba(0, 0, 0, 0.938) 75%, #161616 100%);
+  background: linear-gradient(to bottom, #68718C 0%, rgb(191, 142, 160) 75%, rgb(191, 142, 160) 100%);;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -210,6 +209,7 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  background: linear-gradient(to bottom, rgb(242, 190, 160) 0%, rgb(242, 188, 87)75%, rgb(242, 157, 82) 100%)
 }
 
 .contact-section .card {
