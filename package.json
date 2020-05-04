@@ -14,9 +14,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
+    "homepage": "https://github.com/yamiquispe/portafolio#readme",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
+        "url": "https://github.com/yamiquispe/portafolio/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -26,7 +26,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+        "url": "git+https://github.com/yamiquispe/portafolio.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
